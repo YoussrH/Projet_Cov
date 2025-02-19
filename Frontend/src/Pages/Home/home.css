@@ -1,0 +1,94 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    gap: 2rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 350px;
+    color: white;
+    background: url('../../assets/carpool_only_large.svg') center/cover no-repeat;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.home-title h1 {
+    font-size: 46px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.card-list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    margin-top: 20px;
+    gap: 120px;
+}
+
+
+
+.image img {
+    width: 500px; /* Fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center ; 
+
+}
+
+.content h1 {
+    font-size: 24px; /* Adjust font size as needed */
+
+}
+
+.content p {
+    font-size: 16px; 
+
+}
+
+button {
+    align-self: center;
+    padding:15px 40px ; 
+    background-color: #fb9d18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:medium; 
+    transition-duration: 300ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+

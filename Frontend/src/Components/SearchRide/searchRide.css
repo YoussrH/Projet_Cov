@@ -1,0 +1,81 @@
+.search-ride-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 0 auto;
+  height: auto;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.input-section {
+  flex: 1;
+  max-width: 400px;
+}
+
+.input-section h1 {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.input-section p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  text-align: left;
+}
+
+select,
+input[type="date"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+select:focus,
+input[type="date"]:focus {
+  border-color: #e6a140;
+}
+
+button {
+  align-self: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  transition-duration: 300ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.cover-image {
+  max-width: 100%; /* Ensures the image scales down responsively */
+  max-height: 300px; /* Set a max height to control the image size */
+  margin-left: 20px;
+  object-fit: contain; /* Ensures the full image is displayed without cropping */
+}

@@ -1,0 +1,77 @@
+/* rideDetails.css */
+
+
+.detail-item {
+    margin-bottom: 1.5rem;
+}
+
+.detail-item h2 {
+    font-size: 1.2rem;
+    color: black ; 
+    margin-bottom: 0.5rem;
+}
+
+.detail-item p {
+    font-size: 1rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.driver-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Adjust the margin of ride-details and driver-details */
+.ride-details {
+    width: 500px;
+    margin: 1rem auto; /* Reduced the margin */
+    padding: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.368);
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.driver-details {
+    width: 500px;
+    height: auto;
+    margin: 1rem auto; /* Reduced the margin */
+    padding: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.368);
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pageContainer {
+    margin: 5rem auto; /* Reduced the margin */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem; 
+}
+.icon{
+    width: 30px;
+}
+.image-text-group {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+h3{
+    color: #808080;
+}
+
+.book {
+    margin: 0 120px;
+    color: white;
+}

@@ -1,0 +1,50 @@
+/* Add height for the card to make it longer */
+.max-w-sm {
+    height: 250px; /* Increase the height as needed */
+  }
+  
+  /* Adjust the padding for the card */
+  .p-6 {
+    padding: 24px; /* Adjust padding if needed */
+  }
+  
+  /* Keep the card container centered */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Keep the icon centered at the top */
+  .card-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Align content to the left */
+  .card-content {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  /* Card Title Styling */
+  .card-title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Card Description Styling */
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Itim";
+}
+
+:root {
+    --primaryColor: #fb9d18;
+    --hoverColor: rgb(254, 197, 82);
+    --paleGreen: hsl(45, 82%, 85%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --greyText: hsl(0, 0%, 75%);
+    --bgColor: hsl(113, 11%, 85%);
+    --inputcolor: hsl(330, 12%, 97%);
+}
+
+.loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgColor);
+}
+
+.container {
+    /* Adjust as needed (e.g., 70%, 90%, etc.) */
+    height: 90%; /* Adjust height as needed */
+    max-width: 70%; /* Optional: limit maximum width */
+    margin: auto; /* Center the container horizontally */
+    display: flex; /* Ensure flex layout */
+    justify-content: space-between; /* Space between children */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add some padding */
+    background: #f8f9fa; /* Optional: Add a background color for visibility */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+  }
+  
+
+.VideoDiv {
+
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+    height: 100%;
+}
+
+.VideoDiv video {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.VideoDiv .textDiv {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    color: var(--blackColor);
+}
+
+.VideoDiv .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footerDiv {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    backdrop-filter: blur(2px);
+}
+
+.footerDiv .btn {
+    padding: 0.5rem 1.2rem;
+    background-color: var(--whiteColor);
+    color: var(--primaryColor);
+    border-radius: 8px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.footerDiv .btn:hover {
+    background-color: var(--hoverColor);
+    color: var(--whiteColor);
+}
+
+.formDiv {
+    flex-basis: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.formDiv img {
+    width: 40%;
+    margin-bottom: 1rem;
+    margin-left: 30%;
+   
+}
+
+.formDiv h3 {
+    font-size: 1.25rem;
+    color: var(--blackColor);
+    font-weight: 600;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    display: block;
+    gap: 1rem;
+    width: 100%;
+}
+.inputGroup {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.inputDiv {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.inputDiv label {
+    color: var(--blackColor);
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.inputDiv .input {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    background: var(--inputcolor);
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.inputDiv .input input {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--blackColor);
+}
+
+.icon {
+    color: var(--greyText);
+    font-size: 1.25rem;
+}
+
+.showMessage {
+    display: block;
+    padding: 10px;
+    background: rgb(255, 0, 0);
+    color: var(--whiteColor);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.btnSign{
+    margin-left: 20%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background: var(--hoverColor);
+    color: var(--whiteColor);
+}
+
+.forgetPassword {
+    font-size: 0.875rem;
+    color: var(--blackColor);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.forgetPassword a {
+    color: var(--primaryColor);
+    text-decoration: underline;
+}
+

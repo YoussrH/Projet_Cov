@@ -1,0 +1,113 @@
+.PostRideContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #ffd555b3;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 0; /* Ensure the title is aligned at the top */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the entire form content horizontally */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%; /* Ensure form-group is full-width */
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%; /* Full width for inputs and select */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+input[type="date"],
+input[type="number"] {
+  cursor: pointer;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+}
+
+button.submit-btn {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #393c69;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px; /* Optional: Adjust the width of the button */
+  margin-top: 20px; /* Add margin top for spacing */
+}
+
+button.submit-btn:hover {
+  background-color: #2e2f54;
+}
+
+.image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* New styling for grouping two fields per line */
+.form-group-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-group-group .form-group {
+  flex: 1;
+}
+
+.form-group-group .form-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group-group .form-group input,
+.form-group-group .form-group select {
+  width: 100%; /* Full width for inputs and select */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Align the title at the top */
+h1 {
+  margin-top: 0;
+}
